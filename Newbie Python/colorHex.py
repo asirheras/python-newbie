@@ -13,4 +13,6 @@ def traductor_color(color):
 print(traductor_color("red"))  # Output: '#ff0000'
 print(traductor_color("green"))  # Output: '#00ff00'
 print(traductor_color("blue"))  # Output: '#0000ff'
+#colores desconocidos
 print(traductor_color("black"))  # Output: 'unknown'
+print(traductor_color("white")) # Output: 'unknown'
