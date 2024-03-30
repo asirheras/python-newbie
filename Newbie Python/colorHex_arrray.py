@@ -12,7 +12,9 @@ def traductor_color(color):
     return colores.get(color.lower(), "unknown")
 
 # Ejemplos de uso:
+#Colores primarios
 print(traductor_color("rojo"))   # Output: '#FF0000'
 print(traductor_color("verde"))  # Output: '#00FF00'
 print(traductor_color("azul"))   # Output: '#0000FF'
+#colores desconocidos
 print(traductor_color("amarillo"))  # Output: 'unknown'
