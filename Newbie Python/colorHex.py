@@ -1,4 +1,4 @@
-# La función traductor de color recibe el nombre de un color y la función imprime su valor en hexadecimal. 
+# La función traductor_color recibe el nombre de un color y la función imprime su valor en hexadecimal. 
 # La función solo soporta los 3 colores primarios (rojo, verde y azul) y retorna desconocido ("unknown") 
 # para el resto de colores.
 def traductor_color(color):
