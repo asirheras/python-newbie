@@ -26,7 +26,7 @@ with open("datos.txt", "r") as archivo:
     print(datos)
 ```
 
-Argumentos de línea de comandos: Se pueden pasar argumentos al programa cuando se ejecuta desde la línea de comandos. Estos argumentos se pueden acceder utilizando la variable sys.argv. Por ejemplo:
+**Argumentos de línea de comandos**: Se pueden pasar argumentos al programa cuando se ejecuta desde la línea de comandos. Estos argumentos se pueden acceder utilizando la variable `sys.argv`. Por ejemplo:
 
 ```python
 import sys
@@ -36,7 +36,7 @@ edad = sys.argv[2]
 
 print("Hola,", nombre, "de", edad, "años")
 
-**Entrada estándar**: La entrada estándar es un flujo de datos que se puede utilizar para proporcionar información a un programa. Se puede acceder a la entrada estándar utilizando la función sys.stdin. Por ejemplo:
+**Entrada estándar**: La entrada estándar es un flujo de datos que se puede utilizar para proporcionar información a un programa. Se puede acceder a la entrada estándar utilizando la función `sys.stdin`. Por ejemplo:
 
 ```python
 import sys
