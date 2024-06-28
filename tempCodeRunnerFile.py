@@ -39,40 +39,33 @@ def main():
             print("Saliendo del programa. ¡Adiós!")
             break
         
-        # Solicitamos los números al usuario si la opción no es salir
-        try:
-            num1 = float(input("Ingrese el primer número: "))
-            num2 = float(input("Ingrese el segundo número: "))
-        except ValueError:
-            print("Entrada inválida. Por favor, ingrese números válidos.")
-            continue
+  # Solicitamos los números al usuario si la opción no es salir
+  
+        num1 = float(input("Ingrese el primer número: "))
+        num2 = float(input("Ingrese el segundo número: "))
         
     # Realizamos la operación según la opción seleccionada
     
-        if opcion == '1':
-            resultado = sumar(num1, num2)
-            signo = '+'
-        elif opcion == '2':
-            resultado = restar(num1, num2)
-            signo = '-'
-        elif opcion == '3':
-            resultado = multiplicar(num1, num2)
-            signo = '*'
-        elif opcion == '4':
-            resultado = dividir(num1, num2)
-            signo = '/'
-        else:
-            print("Opción inválida")
-            continue
+    if opcion == '1':
+        resultado = sumar(num1, num2)
+        signo = '+'
+    elif opcion == '2':
+        resultado = restar(num1, num2)
+        signo = '-'
+    elif opcion == '3':
+        resultado = multiplicar(num1, num2)
+        signo = '*'
+    elif opcion == '4':
+        resultado = dividir(num1, num2)
+        signo = '/'
+    else:
+        print("Opción inválida")
+        return
 
     # Mostramos el resultado
     
-        print(f"Resultado: {num1} {signo} {num2} = {resultado}")
-    
-   # Esperamos a que el usuario presione una tecla antes de continuar
-   
-        input("Presione Enter para volver al menú...")
-    
+    print(f"Resultado: {num1} {signo} {num2} = {resultado}")
+
 # Ejecutamos el programa principal
 
 if __name__ == "__main__":
