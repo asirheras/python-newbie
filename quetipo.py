@@ -1,6 +1,6 @@
-# Nombre: 
-# Fecha:
-# Descripción
+# Nombre: Andrés Heras
+# Fecha:20240713
+# Descripción:Script muestra el tipo de variable que el usuario tipea.
 # # como saber que tipo es una variable usamos el comando TYPE
 def determinar_tipo_dato(dato):
     try:
